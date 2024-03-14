@@ -33,7 +33,7 @@
               <h6 class="text_dash text-uppercase text-red fs-base fw-medium animate animate_fade animate_btt animate_delay-3">New Trend</h6>
               <h2 class="text-uppercase h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Summer Sale Stylish</h2>
               <h2 class="text-uppercase h1 fw-bold animate animate_fade animate_btt animate_delay-5">Womens</h2>
-              <a href="shop1.html" class="btn-link btn-link_lg default-underline text-uppercase fw-medium animate animate_fade animate_btt animate_delay-7">Discover More</a>
+              <a href="shop1.html" class="btn-link btn-link_lg default-underline text-uppercase fw-medium animate animate_fade animate_btt animate_delay-7">vIEW aLL PRODUCTS</a>
             </div>
           </div>
         </div><!-- /.slideshow-item -->
