@@ -187,8 +187,8 @@
       </a>
 
       <div class="logo">
-        <a href="index.html">
-          <img src="../images/logo.png" alt="Uomo" class="logo__image d-block">
+        <a href="{{asset('/')}}">
+          <img src="{{asset('Frontend/images/logo.png')}}" alt="Uomo" class="logo__image d-block">
         </a>
       </div><!-- /.logo -->
 
@@ -219,7 +219,7 @@
         <div class="overflow-hidden">
           <ul class="navigation__list list-unstyled position-relative">
             <li class="navigation__item">
-              <a href="#" class="navigation__link js-nav-right d-flex align-items-center">Home<svg class="ms-auto" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg></a>
+              <a href="{{asset('/')}}" class="navigation__link js-nav-right d-flex align-items-center">Home<svg class="ms-auto" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg></a>
              
             </li>
             <li class="navigation__item">
@@ -272,11 +272,11 @@
             </li>
 
             <li class="navigation__item">
-              <a href="about.html" class="navigation__link">About</a>
+              <a href="{{asset('/about')}}" class="navigation__link">About</a>
             </li>
 
             <li class="navigation__item">
-              <a href="contact.html" class="navigation__link">Contact</a>
+              <a href="{{('asset/contact')}}" class="navigation__link">Contact</a>
             </li>
           </ul><!-- /.navigation__list -->
         </div><!-- /.overflow-hidden -->
@@ -344,7 +344,7 @@
     <div class="container">
       <div class="header-desk header-desk_type_1">
         <div class="logo">
-          <a href="index.html">
+          <a href="{{asset('/')}}">
             <img src="{{asset('Frontend/images/logo.png')}}" alt="Uomo" class="logo__image d-block">
           </a>
         </div><!-- /.logo -->
@@ -352,7 +352,7 @@
         <nav class="navigation">
           <ul class="navigation__list list-unstyled d-flex">
             <li class="navigation__item">
-              <a href="#" class="navigation__link">Home</a>
+              <a href="{{asset('/')}}" class="navigation__link">Home</a>
             </li>
             <li class="navigation__item">
               <a href="#" class="navigation__link">Products</a>
@@ -407,10 +407,10 @@
             </li>
            
             <li class="navigation__item">
-              <a href="{{asset('about.html')}}" class="navigation__link">About</a>
+              <a href="{{asset('/about')}}" class="navigation__link">About</a>
             </li>
             <li class="navigation__item">
-              <a href="contact.html" class="navigation__link">Contact</a>
+              <a href="{{asset('/contact')}}" class="navigation__link">Contact</a>
             </li>
           </ul><!-- /.navigation__list -->
         </nav><!-- /.navigation -->
