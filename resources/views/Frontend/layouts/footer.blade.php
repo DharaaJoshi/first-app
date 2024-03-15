@@ -4,8 +4,8 @@
       <div class="row row-cols-lg-5 row-cols-2">
         <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
           <div class="logo">
-            <a href="index.html">
-              <img src="../images/logo.png" alt="Uomo" class="logo__image d-block">
+            <a href="{{asset('/')}}">
+              <img src="{{asset('Frontend/images/logo.png')}}" alt="Uomo" class="logo__image d-block">
             </a>
           </div><!-- /.logo -->
           <p class="footer-address">1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
@@ -49,11 +49,10 @@
         <div class="footer-column footer-menu mb-4 mb-lg-0">
           <h5 class="sub-menu__title text-uppercase">Company</h5>
           <ul class="sub-menu__list list-unstyled">
-            <li class="sub-menu__item"><a href="about.html" class="menu-link menu-link_us-s">About Us</a></li>
-            <li class="sub-menu__item"><a href="about.html" class="menu-link menu-link_us-s">Careers</a></li>
-            <li class="sub-menu__item"><a href="about.html" class="menu-link menu-link_us-s">Affiliates</a></li>
-            <li class="sub-menu__item"><a href="blog_list1.html" class="menu-link menu-link_us-s">Blog</a></li>
-            <li class="sub-menu__item"><a href="contact.html" class="menu-link menu-link_us-s">Contact Us</a></li>
+            <li class="sub-menu__item"><a href="{{asset('/about')}}'" class="menu-link menu-link_us-s">About Us</a></li>
+            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Careers</a></li>
+            <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Affiliates</a></li>
+            <li class="sub-menu__item"><a href="{{asset('/contact')}}" class="menu-link menu-link_us-s">Contact Us</a></li>
           </ul>
         </div><!-- /.footer-column -->
         <div class="footer-column footer-menu mb-4 mb-lg-0">
@@ -88,7 +87,7 @@
           <div class="mt-4 pt-3">
             <strong class="fw-medium">Secure payments</strong>
             <p class="mt-2">
-              <img loading="lazy" src="../images/payment-options.png" alt="Acceptable payment gateways" class="mw-100">
+              <img loading="lazy" src="{{asset('Frontend/images/payment-options.png')}}" alt="Acceptable payment gateways" class="mw-100">
             </p>
           </div>
         </div><!-- /.footer-column -->
@@ -183,14 +182,14 @@
               <input name="remember" class="form-check-input form-check-input_fill" type="checkbox" value="" id="flexCheckDefault">
               <label class="form-check-label text-secondary" for="flexCheckDefault">Remember me</label>
             </div>
-            <a href="reset_password.html" class="btn-text ms-auto">Lost password?</a>
+            <a href="{{asset('/reset_password')}}" class="btn-text ms-auto">Lost password?</a>
           </div>
 
           <button class="btn btn-primary w-100 text-uppercase" type="submit">Log In</button>
 
           <div class="customer-option mt-4 text-center">
             <span class="text-secondary">No account yet?</span>
-            <a href="login_register.html#register-tab" class="btn-text js-show-register">Create Account</a>
+            <a href="{{asset('/login')}}#register-tab" class="btn-text js-show-register">Create Account</a>
           </div>
         </form>
       </div><!-- /.customer__login -->
@@ -227,7 +226,7 @@
 
           <div class="customer-option mt-4 text-center">
             <span class="text-secondary">Already have account?</span>
-            <a href="#" class="btn-text js-show-login">Login</a>
+            <a href="{{asset('/login')}}" class="btn-text js-show-login">Login</a>
           </div>
         </form>
       </div><!-- /.customer__register -->
@@ -323,8 +322,8 @@
         <h6 class="fs-base fw-medium">SUBTOTAL:</h6>
         <span class="cart-subtotal fw-medium">$176.00</span>
       </div><!-- /.d-flex justify-content-between -->
-      <a href="shop_cart.html" class="btn btn-light mt-3 d-block">View Cart</a>
-      <a href="shop_checkout.html" class="btn btn-primary mt-3 d-block">Checkout</a>
+      <a href="{{asset('/cart')}}" class="btn btn-light mt-3 d-block">View Cart</a>
+      <a href="{{asset('/checkout')}}" class="btn btn-primary mt-3 d-block">Checkout</a>
     </div><!-- /.aside-content -->
   </div><!-- /.aside -->
 
@@ -333,7 +332,7 @@
     <div class="modal-dialog modal-fullscreen">
       <div class="sitemap d-flex">
         <div class="w-50 d-none d-lg-block">
-          <img loading="lazy" src="../images/nav-bg.jpg" alt="Site map" class="sitemap__bg">
+          <img loading="lazy" src="{{asset('Frontend/images/nav-bg.jpg')}}" alt="Site map" class="sitemap__bg">
         </div><!-- /.sitemap__bg w-50 d-none d-lg-block -->
         <div class="sitemap__links w-50 flex-grow-1">
           <div class="modal-content">
@@ -724,3 +723,4 @@
 
   <!-- Footer Scripts -->
   <script src="{{asset('Frontend/js/theme.js')}}"></script>
+             

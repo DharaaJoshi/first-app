@@ -5,7 +5,16 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\AboutController;
 use App\Http\Controllers\Frontend\ContactUsController;
-
+use App\Http\Controllers\Frontend\ResetPasswordController;
+use App\Http\Controllers\Frontend\WishListController;
+use App\Http\Controllers\Frontend\Account_DashboardController;
+use App\Http\Controllers\Frontend\Account_OrdersController;
+use App\Http\Controllers\Frontend\Account_edit_AddressController;
+use App\Http\Controllers\Frontend\Account_editController;
+use App\Http\Controllers\Frontend\LoginController;
+use App\Http\Controllers\Frontend\OrderCompleteController;
+use App\Http\Controllers\Frontend\CartController;
+use App\Http\Controllers\Frontend\CheckOutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,3 +30,13 @@ use App\Http\Controllers\Frontend\ContactUsController;
 Route::get('/',[HomeController::class,'index']);
 Route::get('/about',[AboutController::class,'index']);
 Route::get('/contact',[ContactUsController::class,'index']);
+Route::get('/login',[LoginController::class,'index']);
+Route::get('/reset_password',[ResetPasswordController::class,'index']);
+Route::get('/wishlist',[WishListController::class,'index']);
+Route::get('/dashboard',[Account_DashboardController::class,'index']);
+Route::get('/orders',[Account_OrdersController::class,'index']);
+Route::get('/account_details',[Account_editController::class,'index']);
+Route::get('/addresses',[Account_edit_AddressController::class,'index']);
+Route::get('/cart',[CartController::class,'index']);
+Route::get('/checkout',[CheckOutController::class,'index']);
+Route::get('/orderComplete',[OrderCompleteController::class,'index']);
