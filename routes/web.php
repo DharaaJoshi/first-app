@@ -27,10 +27,15 @@ use App\Http\Controllers\Frontend\CheckOutController;
 */
 
 
-Route::get('/',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/about',[AboutController::class,'index']);
 Route::get('/contact',[ContactUsController::class,'index']);
-Route::get('/login',[LoginController::class,'index']);
+
+Route::get('/login',[LoginController::class,'login'])->name('login');
+Route::post('/login',[LoginController::class,'loginPost'])->name('login.post');
+Route::get('/register',[LoginController::class,'register'])->name('register');
+Route::post('/register',[LoginController::class,'registerPost'])->name('register.post');
+
 Route::get('/reset_password',[ResetPasswordController::class,'index']);
 Route::get('/wishlist',[WishListController::class,'index']);
 Route::get('/dashboard',[Account_DashboardController::class,'index']);
@@ -40,3 +45,11 @@ Route::get('/addresses',[Account_edit_AddressController::class,'index']);
 Route::get('/cart',[CartController::class,'index']);
 Route::get('/checkout',[CheckOutController::class,'index']);
 Route::get('/orderComplete',[OrderCompleteController::class,'index']);
+
+
+
+Route::get('/test',function(){
+
+
+    return view('test');
+});

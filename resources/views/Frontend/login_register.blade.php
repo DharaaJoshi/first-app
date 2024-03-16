@@ -13,11 +13,25 @@
           <a class="nav-link nav-link_underscore" id="register-tab" data-bs-toggle="tab" href="#tab-item-register" role="tab" aria-controls="tab-item-register" aria-selected="false">Register</a>
         </li>
       </ul>
+ 
+      <div>
+      @if(session()->has('error'))
+    <div>{{session('ERROR')}}</div>
+    @endif
+
+    </div>
+    
+      @if(session()->has('success'))
+    <div>{{session('success')}}</div>
+    @endif
+
+  </div>
       <div class="tab-content pt-2" id="login_register_tab_content">
         <div class="tab-pane fade show active" id="tab-item-login" role="tabpanel" aria-labelledby="login-tab">
           <div class="login-form">
-            <form name="login-form" class="needs-validation" novalidate>
+            <form name="login-form" action="{{route('login.post')}}" method="POST"class="needs-validation" novalidate>
               <div class="form-floating mb-3">
+              <input type="hidden" name="_token" value="{!! csrf_token() !!}">
                 <input name="login_email" type="email" class="form-control form-control_gray" id="customerNameEmailInput1" placeholder="Email address *" required>
                 <label for="customerNameEmailInput1">Email address *</label>
               </div>
@@ -37,6 +51,7 @@
                 <a href="{{asset('/reset_password')}}" class="btn-text ms-auto">Lost password?</a>
               </div>
     
+              
               <button class="btn btn-primary w-100 text-uppercase" type="submit">Log In</button>
     
               <div class="customer-option mt-4 text-center">
@@ -48,23 +63,24 @@
         </div>
         <div class="tab-pane fade" id="tab-item-register" role="tabpanel" aria-labelledby="register-tab">
           <div class="register-form">
-            <form name="register-form" class="needs-validation" novalidate>
+            <form name="register-form" action="{{route('register.post')}}" method="POST"class="needs-validation" novalidate>
               <div class="form-floating mb-3">
-                <input name="register_username" type="text" class="form-control form-control_gray" id="customerNameRegisterInput" placeholder="Username" required>
+              <input type="hidden" name="_token" value="{!! csrf_token() !!}">
+                <input name="username" type="text" class="form-control form-control_gray" id="customerNameRegisterInput" placeholder="Username" required>
                 <label for="customerNameRegisterInput">Username</label>
               </div>
     
               <div class="pb-3"></div>
 
               <div class="form-floating mb-3">
-                <input name="register_email" type="email" class="form-control form-control_gray" id="customerEmailRegisterInput" placeholder="Email address *" required>
+                <input name="email" type="email" class="form-control form-control_gray" id="customerEmailRegisterInput" placeholder="Email address *" required>
                 <label for="customerEmailRegisterInput">Email address *</label>
               </div>
     
               <div class="pb-3"></div>
     
               <div class="form-floating mb-3">
-                <input name="register_password" type="password" class="form-control form-control_gray" id="customerPasswodRegisterInput" placeholder="Password *" required>
+                <input name="password" type="password" class="form-control form-control_gray" id="customerPasswodRegisterInput" placeholder="Password *" required>
                 <label for="customerPasswodRegisterInput">Password *</label>
               </div>
     
