@@ -154,7 +154,18 @@
 
   <div class="mb-5 pb-xl-5"></div>
   
-  
+  <div>
+      @if(session()->has('error'))
+    <div>{{session('ERROR')}}</div>
+    @endif
+
+    </div>
+    
+      @if(session()->has('success'))
+    <div>{{session('success')}}</div>
+    @endif
+
+  </div>
   <!-- Customer Login Form -->
   <div class="aside aside_right overflow-hidden customer-forms" id="customerForms">
     <div class="customer-forms__wrapper d-flex position-relative">
@@ -164,7 +175,8 @@
           <button class="btn-close-lg js-close-aside ms-auto"></button>
         </div><!-- /.aside-header -->
 
-        <form action="https://uomo-html.flexkitux.com/Demo1/login_register.html" method="POST" class="aside-content">
+        <form action="{{route('login.post')}}" method="POST" class="aside-content">
+          @csrf
           <div class="form-floating mb-3">
             <input name="email" type="email" class="form-control form-control_gray" id="customerNameEmailInput" placeholder="name@example.com">
             <label for="customerNameEmailInput">Username or email address *</label>
@@ -200,7 +212,8 @@
           <button class="btn-close-lg js-close-aside btn-close-aside ms-auto"></button>
         </div><!-- /.aside-header -->
 
-        <form action="https://uomo-html.flexkitux.com/Demo1/login_register.html" method="POST" class="aside-content">
+        <form action="{{route('register.post')}}" method="GET" class="aside-content">
+          @csrf
           <div class="form-floating mb-4">
             <input name="username" type="text" class="form-control form-control_gray" id="registerUserNameInput" placeholder="Username">
             <label for="registerUserNameInput">Username</label>
