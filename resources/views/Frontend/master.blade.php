@@ -173,8 +173,8 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (1).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (1).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
                 </div>
@@ -207,7 +207,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (2).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -231,7 +231,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (3).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -255,7 +255,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (4).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -280,7 +280,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (5).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -304,7 +304,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (6).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -328,7 +328,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (7).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -352,7 +352,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (8).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -374,7 +374,7 @@
             </div>
           </div><!-- /.row -->
           <div class="text-center mt-2">
-            <a class="btn-link btn-link_lg default-underline text-uppercase fw-medium" href="shop1.html">Discover More</a>
+            <a class="btn-link btn-link_lg default-underline text-uppercase fw-medium" href="{{asset('/shop')}}">Discover More</a>
           </div>
         </div><!-- /.tab-pane fade show-->
 
@@ -384,7 +384,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (9).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_3.1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -408,7 +408,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (10).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_4.1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -433,7 +433,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (11).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -481,7 +481,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (12).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -505,7 +505,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (13).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -530,7 +530,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (14).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1-1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -564,7 +564,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (15).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -595,7 +595,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (16).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -619,7 +619,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (17).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -643,7 +643,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (19).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -667,7 +667,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (20).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -692,7 +692,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (21).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -726,7 +726,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (22).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -750,7 +750,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (23).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -774,7 +774,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (24).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
@@ -796,7 +796,7 @@
             </div>
           </div><!-- /.row -->
           <div class="text-center mt-2">
-            <a class="btn-link btn-link_lg default-underline text-uppercase fw-medium" href="shop1.html">Discover More</a>
+            <a class="btn-link btn-link_lg default-underline text-uppercase fw-medium" href="{{asset('/shop')}}">Discover More</a>
           </div>
         </div><!-- /.tab-pane fade show-->
 
@@ -806,7 +806,7 @@
               <div class="product-card mb-3 mb-md-4 mb-xxl-5">
                 <div class="pc__img-wrapper">
                   <a href="product1_simple.html">
-                    <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
+                    <img loading="lazy" src="{{asset('Frontend/images/product images/imge (25).jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img">
                     <img loading="lazy" src="{{asset('Frontend/images/products/product_1.jpg')}}" width="330" height="400" alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
                   </a>
                   <button class="pc__atc btn anim_appear-bottom btn position-absolute border-0 text-uppercase fw-medium js-add-cart js-open-aside" data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>

@@ -15,6 +15,8 @@ use App\Http\Controllers\Frontend\LoginController;
 use App\Http\Controllers\Frontend\OrderCompleteController;
 use App\Http\Controllers\Frontend\CartController;
 use App\Http\Controllers\Frontend\CheckOutController;
+use App\Http\Controllers\Frontend\ShopController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,6 +47,8 @@ Route::get('/addresses',[Account_edit_AddressController::class,'index']);
 Route::get('/cart',[CartController::class,'index']);
 Route::get('/checkout',[CheckOutController::class,'index']);
 Route::get('/orderComplete',[OrderCompleteController::class,'index']);
+Route::get('/shop',[ShopController::class,'index']);
+
 
 
 

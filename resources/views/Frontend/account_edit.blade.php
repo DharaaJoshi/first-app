@@ -32,12 +32,7 @@
                       <label for="account_last_name">Last Name</label>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="form-floating my-3">
-                      <input type="text" class="form-control" id="account_display_name" placeholder="Display Name" required>
-                      <label for="account_display_name">Display Name</label>
-                    </div>
-                  </div>
+                 
                   <div class="col-md-12">
                     <div class="form-floating my-3">
                       <input type="email" class="form-control" id="account_email" placeholder="Email Address" required>
